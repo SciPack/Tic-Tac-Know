@@ -15,7 +15,7 @@ Rectangle {
         height: firstOrderHeightSquares * squareHeight
         cellWidth: squareWidth
         cellHeight: squareHeight
-        model: 9
+        model: firstOrderWidthSquares * firstOrderHeightSquares
         delegate: Square {}
     }
 }

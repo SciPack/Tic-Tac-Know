@@ -31,7 +31,7 @@ Rectangle {
         height: boardHeightFirstOrders * firstOrderHeightSquares * squareHeight
         cellWidth: firstOrderWidthSquares * squareWidth
         cellHeight: firstOrderHeightSquares * squareHeight
-        model: 9
+        model: boardWidthFirstOrders * boardHeightFirstOrders
         delegate: FirstOrder {}
     }
 }
